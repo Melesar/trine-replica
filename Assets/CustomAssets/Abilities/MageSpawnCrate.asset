@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09147adf0045874a868a27d50a269a5, type: 3}
+  m_Name: MageSpawnCrate
+  m_EditorClassIdentifier: 
+  drawingPrefab: {fileID: 120296440155395318, guid: c0a7bb96b77a14c418a91f0ede15ff32,
+    type: 2}
+  cratePrefab: {fileID: 1232887476483260, guid: a03e3ac7e84d1bb46a1011329882ea62,
+    type: 2}

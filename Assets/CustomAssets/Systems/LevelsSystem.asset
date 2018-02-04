@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f957cb62ae4bb5a0b1b80f6e9d5d09, type: 3}
+  m_Name: LevelsSystem
+  m_EditorClassIdentifier: 
+  unlockedLevelUi: {fileID: 1126402144368056, guid: d963f67c3f87e354ebeac55c4a6559ff,
+    type: 2}
+  lockedLevelUi: {fileID: 1433681386464766, guid: 661f3bb6d42ba764ab8522291788a07c,
+    type: 2}
+  levelsFolder:
+    useConstantValue: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: ff858fb3a4c02244c8c2bf1ee266c534, type: 2}
+  assetBundleManifestName:
+    useConstantValue: 0
+    constantValue: 
+    variable: {fileID: 11400000, guid: de061fede32be804ba0656b1174dac7e, type: 2}
+  onLevelLoadingStarted: {fileID: 11400000, guid: 898cb1d3a18cb03498e27ca4ae9f0768,
+    type: 2}

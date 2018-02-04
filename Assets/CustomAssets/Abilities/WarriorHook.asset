@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7458456e0300447e99c22b51a64aa23e, type: 3}
+  m_Name: WarriorHook
+  m_EditorClassIdentifier: 
+  flyingSpeed: 15
+  maxDistance: 8
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  parentingOffset: {x: 0, y: 3}
+  hookPrefab: {fileID: 114939251613235248, guid: 64f3329c59144cc409762ddc1a402f1b,
+    type: 2}

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaef2cef7ac44e9a33676a48669c82f, type: 3}
+  m_Name: MageTelekinesis
+  m_EditorClassIdentifier: 
+  particleEffectPrefab: {fileID: 1086620946685486, guid: 4732d8dc9f0e2c142b0661989acd8eb3,
+    type: 2}

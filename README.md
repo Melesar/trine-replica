@@ -1,0 +1,2 @@
+This project represents a replica of the Trine game in 2D with free assets.
+The main goal of it was to give a try to code architectural design described in [this Unite speech](https://www.youtube.com/watch?v=raQ3iHhE_Kk&index=2&list=LLzFNVnzvnfW8ZNow6EkDMoQ)
