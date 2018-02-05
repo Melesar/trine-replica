@@ -9,5 +9,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36cb489ca7780db49a4fefff4a0acb18, type: 3}
-  m_Name: OnGameOver
+  m_Name: OnLevelWon
   m_EditorClassIdentifier: 

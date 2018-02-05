@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114688057654139014}
   - component: {fileID: 114929721055406746}
   - component: {fileID: 114927349513077154}
+  - component: {fileID: 114939125423109310}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -166,6 +167,34 @@ MonoBehaviour:
     characterType: {fileID: 11400000, guid: b0415ba8bbbe9244ab15cd517ab8df6f, type: 2}
   - key: 51
     characterType: {fileID: 11400000, guid: 38e7b26b569d9084499a71b9638f5fa2, type: 2}
+--- !u!114 &114939125423109310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321840318598768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb2511d46a1bea4786a59b1218d0b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 856a7e0bd098b1b4bb3d5d303cdabe35, type: 2}
+  onRaised:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114337681021341128}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!124 &124266008325211268
 Behaviour:
   m_ObjectHideFlags: 1

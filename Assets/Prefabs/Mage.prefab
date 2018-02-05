@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 210503873898464862}
   - component: {fileID: 114447908252730110}
   - component: {fileID: 114601447119999198}
+  - component: {fileID: 114928507129225064}
   m_Layer: 9
   m_Name: Mage
   m_TagString: Untagged
@@ -723,7 +724,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1176762241538142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.01, y: -1.38, z: -0.0546875}
+  m_LocalPosition: {x: -5.14, y: -1.9503334, z: -0.0546875}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 4988799702422826}
@@ -1184,6 +1185,18 @@ MonoBehaviour:
   layerToSet:
     serializedVersion: 2
     m_Bits: 1
+--- !u!114 &114928507129225064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176762241538142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c28fd43e5a402c84a99727542776c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  condition: {fileID: 11400000, guid: 8e539499ee5d34a4c9df406254ccca82, type: 2}
 --- !u!210 &210503873898464862
 SortingGroup:
   m_ObjectHideFlags: 1
