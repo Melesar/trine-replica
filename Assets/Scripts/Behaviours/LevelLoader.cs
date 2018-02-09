@@ -11,7 +11,7 @@ namespace Behaviours
         
         public void OnLevelSelected()
         {
-            StartCoroutine(levelsSystem.LoadLevel(LevelNumber));
+            levelsSystem.LoadLevel(LevelNumber);
         }
     }
 }

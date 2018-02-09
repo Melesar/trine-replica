@@ -15,6 +15,7 @@ namespace Editor.PropertyDrawers
             var useConstantValue = property.FindPropertyRelative("useConstantValue");
 
             var buttonRect = new Rect(position.x, position.y, position.height, position.height);
+            //var selectButtonStyle = new GUIStyle() {normal = new GUIStyleState {background = EditorGUIUtility.FindTexture("mini popup")}};
             if (GUI.Button(buttonRect, string.Empty)) {
                 var menu = new GenericMenu();
                 menu.AddItem(new GUIContent {text = "Use variable"}, !useConstantValue.boolValue, 
@@ -40,6 +41,13 @@ namespace Editor.PropertyDrawers
         {
             property.boolValue = newValue;
             property.serializedObject.ApplyModifiedProperties();
+        }
+
+        
+        
+        private void OnEnable()
+        {
+            
         }
     }
 }

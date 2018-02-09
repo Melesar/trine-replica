@@ -9,5 +9,10 @@ namespace Framework.References
         public StringVariable variable;
 
         public override Variable<string> Variable => variable;
+
+        public override string ToString()
+        {
+            return Value;
+        }
     }
 }

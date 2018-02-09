@@ -10,11 +10,12 @@ namespace Framework.Data
 
         public event UnityAction<T, T> valueChanged;
 
+        private bool isEnabled;
         private T currentValue;
 
         public virtual T Value 
         { 
-            get { return currentValue; }
+            get { return isEnabled ? currentValue : value; }
             set 
             {
                 if (value.Equals(currentValue)) {
@@ -40,6 +41,7 @@ namespace Framework.Data
 
         protected virtual void OnEnable()
         {
+            isEnabled = true;
             currentValue = value;
         }
     }
